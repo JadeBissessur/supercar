@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  background-color: black;
+
+}
+.container_essai{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  position: relative;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.input-box {
+  width: calc(100% / 2 - 20px);
+  padding: 10px 0;
+
+}
+
+.input-field {
+
+  width: 85%;
+  padding: 10px;
+  margin: 5px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.select-field {
+
+  width: 92%;
+  padding: 10px;
+  margin-left: 4px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  color: #757575
+
+}
+
+.text-box {
+
+  margin-top: 25px;
+  width: calc(100% / 2 - 20px);
+}
+
+.date-box {
+ 
+  width: calc(100% / 2 - 20px);
+
+}
+.date-field {
+
+  width: 85%;
+  padding: 10px;
+  margin: 5px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  color: #757575;
+}
+
+.title1 {
+
+  width: 85%;
+  margin: 5px;
+  font-size: small;
+  padding-top: 10px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 13px ;
+  background: linear-gradient(to right, #c57171, #812828);
+  border-radius: 20px ;
+  margin-left: 30px;
+  margin-top: 25px;
+  width: 140px;
+  transition: color 0.3s ease-in-out;
+   
+}
+
+.button:hover {
+
+  color: #fff;
+  background: #999;
+}
+
+#video {
+
+position: fixed;
+right: 0;
+bottom: 0;
+
+}
+
+

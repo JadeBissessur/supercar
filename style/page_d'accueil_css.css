@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-left: 80px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.description {
+    color: white;
+    font-size: 13px;
+}
+
+button {
+    width: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 12px 0;
+    background: linear-gradient(to right, #c57171, #812828);
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+    color: #fff;
+    background: #999;
+}
+
+.card {
+    width: 250px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-color: rgba(153, 153, 153, 0.1);
+}
+
+.image-card {
+    width: 200px;
+    height: 150px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Carousel */
+.slider-frame {
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* SLIDE ANIMATION */
+@keyframes slide_animation {
+    0% {
+        left: 1200px;
+    }
+    20% {
+        left: 2400px;
+    }
+    40% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+        80% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 3600px;
+    height: 900x;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+.img-container {
+    height: 3000px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .slider-frame {
+        margin-left: 0;
+    }
+}

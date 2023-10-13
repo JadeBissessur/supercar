@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+table {
+
+    width: 90%;
+    margin-left: 100px;
+}
+
+.titre {
+    margin-left: 50px;
+}
+
+.sous-titre {
+    margin-left: 50px;
+}
+
+.description {
+    margin-left: 50px;
+}
+
+.image-event {
+
+    width: 700px;
+    height: 500px;
+}
+
+.content {
+
+    background-color: rgba(153, 153, 153, 0.1);
+    color: #fff;
+
+}
+
+.button-reservation{
+    width: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 12px 0;
+    background: linear-gradient(to right, #c57171, #812828);
+    border-radius: 20px;
+    border: none ;
+    transition: color 0.3s ease-in-out;
+    margin-top: 10px;
+    margin-left: 90px;
+
+
+}
+
+.button-reservation:hover {
+
+    color: #fff;
+    background: #999;
+}

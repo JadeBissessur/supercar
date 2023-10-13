@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.upload {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.message {
+
+    width: 83%;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-wrap: wrap;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.button {
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: crimson;
+    color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 25%;
+}
+
+.image {
+
+    max-width: 300px; 
+    max-height: 300px;
+    margin-left: 10%;
+}
